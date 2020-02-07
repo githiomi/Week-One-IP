@@ -1,0 +1,64 @@
+*{
+}
+
+.nav{
+	margin-top: 100px;
+}
+
+.nav img{
+	margin-left: 150px;
+}
+
+.nav a{
+	list-style-type: none;
+	text-decoration: none;
+	color: grey;
+	float: right;
+	padding: 5px;
+	margin-top: 60px;
+	margin-right: 150px;
+}
+
+.info{
+	text-align: center;
+	color: grey;
+}
+
+.info h4 a{
+	text-decoration: none;
+}
+
+.buttons{
+	padding: 50px;
+	margin-left: 330px;
+	list-style-type: none;
+}
+
+.buttons ol{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.buttons ol li{
+	float: left;
+	text-align: center;
+	padding: 10px;
+	margin-right: 200px;
+}
+
+ol li a{
+	text-decoration: none;
+	list-style-type: none;
+	color: grey;
+}
+
+.footer{
+	margin-right: 150px;
+}
+
+.footer li{
+	list-style-type: none;
+	padding: 5px;
+	margin: 10px;
+	float: right;
+}
