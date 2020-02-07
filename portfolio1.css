@@ -1,0 +1,31 @@
+.personal{
+	background: url("img/back.jpg");
+	height: 300px;
+	width: 50%;
+	float: left;
+}
+
+.personal h1{
+	padding-bottom: 30px;
+	border-bottom: 1px solid gold;
+	border-radius: 80%;
+	padding-top: 70px;
+	color: white;
+	text-align: center;
+}
+
+.personal h3{
+	text-align: center;
+	color: white;
+	font-family: Comic Sans MS;
+}
+
+.column1{
+	float: left;
+	background-color: grey;
+}
+
+.column2{
+	float: right;
+	background-color: pink;
+}

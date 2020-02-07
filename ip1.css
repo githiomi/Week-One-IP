@@ -1,6 +1,14 @@
 *{
 }
 
+body{
+	/*background: url("img/backg.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;*/
+
+}
+
 .nav{
 	margin-top: 100px;
 }
@@ -12,7 +20,7 @@
 .nav a{
 	list-style-type: none;
 	text-decoration: none;
-	color: grey;
+	color: black;
 	float: right;
 	padding: 5px;
 	margin-top: 60px;
@@ -21,7 +29,10 @@
 
 .info{
 	text-align: center;
-	color: grey;
+	color: black;
+	padding-bottom: 20px;
+	border-bottom: 2px solid gold;
+	border-radius: 85%;
 }
 
 .info h4 a{
@@ -44,6 +55,12 @@
 	text-align: center;
 	padding: 10px;
 	margin-right: 200px;
+}
+
+#portfolio{
+	border: 2px solid black;
+	color: black;
+	padding: 10px;
 }
 
 ol li a{
