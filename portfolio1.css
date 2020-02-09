@@ -1,10 +1,20 @@
 *{
-	margin: 2px;
+}
+
+.fimage{
+	height: 1000px;
+	background: url("img/me1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
 }
 
 .personal{
+	width: 49%;
+	float: right;
 	background: url("img/back.jpg");
 	height: 300px;
+	width: 100%px;
 }
 
 .personal h1{
@@ -24,6 +34,7 @@
 }
 
 .sidebar{
+	position: relative;
 	text-align: center;
 	width: 40%;
 	float: left;
@@ -35,6 +46,14 @@
 	border-radius: 20%;
 	padding-top: 20px;
 	color: white;
+}
+
+.remainder{
+	width: 59%;
+	height: 880px;
+	float: right;
+	text-align: left;
+	background: url("img/wood.jpg");
 }
 
 /*.columns{
