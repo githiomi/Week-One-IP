@@ -5,16 +5,15 @@
 	height: 1000px;
 	background: url("img/me1.jpg");
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: contain;
+	background-attachment: fixed;
 }
 
 .personal{
-	width: 49%;
 	float: right;
 	background: url("img/back.jpg");
 	height: 300px;
-	width: 100%px;
+	width: 58.5%;
 }
 
 .personal h1{
@@ -33,43 +32,87 @@
 	font-family: Comic Sans MS;
 }
 
-.sidebar{
-	position: relative;
-	text-align: center;
-	width: 40%;
-	float: left;
-	background-color: black;
-}
-
-.sidebar p{
-	border-top: 1px solid red;
-	border-radius: 20%;
-	padding-top: 20px;
-	color: white;
-}
-
 .remainder{
-	width: 59%;
-	height: 880px;
+	height: 1500px;
+	width: 58.5%;
 	float: right;
 	text-align: left;
-	background: url("img/wood.jpg");
+	background: url("img/wood.jpg")
 }
 
-/*.columns{
-	background: url("img/me.jpg");
-	background-attachment: fixed;
-	height: 300px;
-	width: 50%;
-	float: left;
-}
-
-.columnl{
+.remainder h3{
+	color: gold;
 	text-align: center;
-	width: 50%;
+	border-bottom: 2px solid white;
+	border-radius: 10%;
 }
 
-.columnr{
-	float: right;
-	background-color: pink;
-}*/
+.remainder p{
+	color: white;
+	margin-left: 10px;
+}
+
+.MFD{
+	margin-bottom: 50px; 
+	border-bottom: 2px solid white;
+	border-radius: 10%;
+}
+
+.MFD h4{
+	text-align: center;
+	color: gold;
+	text-decoration: underline;
+}
+
+.MFD p{
+	text-align: left;
+}
+
+.MFD p img{
+	margin-left: 80px;
+}
+
+.Girr{
+	margin-bottom: 50px; 
+	border-bottom: 2px solid white;
+	border-radius: 10%;
+}
+
+.Girr h4{
+	text-align: center;
+	color: gold;
+	text-decoration: underline;
+}
+
+.Girr p{
+	text-align: left;
+}
+
+.Girr p img{
+	margin-left: 100px;
+}
+
+.Branch{
+	margin-bottom: 50px; 
+	border-bottom: 2px solid white;
+	border-radius: 10%;
+}
+
+.Branch h4{
+	text-align: center;
+	color: gold;
+	text-decoration: underline;
+}
+
+.Branch p{
+	text-align: left;
+}
+
+.Branch p img{
+	margin-left: 100px;
+}
+
+.About h4{
+	color: gold;
+	text-decoration: underline;
+}
