@@ -2,11 +2,6 @@
 }
 
 body{
-	/*background: url("img/backg.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;*/
-
 }
 
 .nav{
@@ -31,7 +26,7 @@ body{
 	text-align: center;
 	color: black;
 	padding-bottom: 20px;
-	border-bottom: 2px solid gold;
+	border-bottom: 3px solid red;
 	border-radius: 85%;
 }
 
@@ -62,6 +57,30 @@ body{
 	color: black;
 	padding: 10px;
 }
+
+	#portfolio:hover{
+	border: 2px solid black;
+	border-radius: 4px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	transition: background-color 0.5s ease-in;
+	}
+
+#contacts{
+	border: 2px solid black;
+	color: black;
+	padding: 10px;
+}
+
+	#contacts:hover{
+	border: 2px solid black;
+	border-radius: 4px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	transition: background-color 0.5s ease-in;
+	}
 
 ol li a{
 	text-decoration: none;
